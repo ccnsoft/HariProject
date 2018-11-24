@@ -13,7 +13,7 @@ public class Apponfig {
 	
 	@Bean
 	public JdbcTemplate jtobj()
-	{
+	{System.out.println("hai ");
 		JdbcTemplate jt=new JdbcTemplate();
 		jt.setDataSource(dsobj());
 		return jt;
